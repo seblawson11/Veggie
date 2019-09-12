@@ -15,13 +15,14 @@
 
   .collection-footer {
     width: 100%;
-    height: 5%;
+    height: 10%;
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+    padding: 5px;
 
     .name {
-      width: 90%;
+      width: 50%;
       margin-bottom: 15px;
     }
 

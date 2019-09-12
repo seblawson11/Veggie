@@ -8,19 +8,22 @@ const SHOP_DATA = [
           id: 1,
           name: 'Tomatoes',
           imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-          price: 2.5
+          price: 2.5,
+          sellerName: 'Brian'
         },
         {
           id: 2,
           name: 'Rocket',
           imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-          price: 1.8
+          price: 1.8,
+          sellerName: 'Mr veg'
         },
         {
           id: 3,
           name: 'Cabbage',
           imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-          price: 3.5
+          price: 3.5,
+          sellerName: 'Lucy Lawson'
         },
         {
           id: 4,
