@@ -1,8 +1,8 @@
 const SHOP_DATA = [
     {
       id: 1,
-      title: 'Vegetables',
-      routeName: 'vegetables',
+      title: 'Landscape',
+      routeName: 'landscape',
       items: [
         {
           id: 1,
@@ -65,8 +65,8 @@ const SHOP_DATA = [
     },
     {
       id: 2,
-      title: 'Fruit',
-      routeName: 'fruit',
+      title: 'Abstract',
+      routeName: 'abstract',
       items: [
         {
           id: 10,
@@ -120,8 +120,8 @@ const SHOP_DATA = [
     },
     {
       id: 3,
-      title: 'Dairy',
-      routeName: 'dairy',
+      title: 'Handmade',
+      routeName: 'handmade',
       items: [
         {
           id: 18,
@@ -157,8 +157,8 @@ const SHOP_DATA = [
     },
     {
       id: 4,
-      title: 'Other',
-      routeName: 'other',
+      title: 'Food and Drink',
+      routeName: 'food-and-drink',
       items: [
         {
           id: 23,
