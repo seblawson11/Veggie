@@ -6,30 +6,30 @@ const SHOP_DATA = [
       items: [
         {
           id: 1,
-          name: 'Tomatoes',
+          name: 'painting 1',
           imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-          price: 2.5,
-          sellerName: 'Brian'
+          price: 250,
+          artistName: 'Brian'
         },
         {
           id: 2,
-          name: 'Rocket',
+          name: 'painting 2',
           imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-          price: 1.8,
-          sellerName: 'Mr veg'
+          price: 180,
+          artistName: 'mr artist'
         },
         {
           id: 3,
-          name: 'Cabbage',
+          name: 'painting 3',
           imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-          price: 3.5,
-          sellerName: 'Lucy Lawson'
+          price: 350,
+          artistName: 'barney'
         },
         {
           id: 4,
-          name: 'Potatoes',
+          name: 'painting 4',
           imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-          price: 2.5
+          price: 250
         },
         {
           id: 5,
@@ -70,27 +70,27 @@ const SHOP_DATA = [
       items: [
         {
           id: 10,
-          name: 'Strawberries',
+          name: 'circle',
           imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-          price: 2.20
+          price: 220
         },
         {
           id: 11,
-          name: 'Cooking Apples',
+          name: 'squiggles',
           imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-          price: 2.80
+          price: 280
         },
         {
           id: 12,
-          name: 'Pears',
+          name: 'lines',
           imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-          price: 1.10
+          price: 110
         },
         {
           id: 13,
-          name: 'Plums',
+          name: 'splodges',
           imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-          price: 1.60
+          price: 160
         },
         {
           id: 14,

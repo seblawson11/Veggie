@@ -2,13 +2,13 @@ import React from 'react';
 
 import './cart-item.styles.scss';
 
-const CartItem = ({ item: {imageUrl, price, name, sellerName, quantity } })=> (
+const CartItem = ({ item: {imageUrl, price, name, artistName, quantity } })=> (
   <div className='cart-item'>
     <img src={imageUrl} alt='item'/>
     <div className='item-details'>
       <span className='name'>{name}</span>
       <span className='price'>{quantity} x £{price}</span>
-      <span className='sellerName'>{sellerName}</span>
+      <span className='artistName'>{artistName}</span>
     </div>
   </div>
 )

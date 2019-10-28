@@ -7,14 +7,14 @@ import './checkout-item.styles.scss';
 
 
 const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
-  const { name, imageUrl, sellerName, price, quantity } = cartItem;
+  const { name, imageUrl, artistName, price, quantity } = cartItem;
   return (
   <div className='checkout-item'>
     <div className='image-container'>
       <img src={imageUrl} alt='item'/>
     </div>
     <span className='name'>{name}</span>
-    <span className='sellerName'>{sellerName}</span>
+    <span className='artistName'>{artistName}</span>
     <span className='quantity'>
       <div className='arrow' onClick={() =>removeItem(cartItem)}> &#10094;</div>
         <span className='value'>{quantity}</span>

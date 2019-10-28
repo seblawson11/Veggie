@@ -8,7 +8,7 @@ import './collection-item.styles.scss';
 
 
 const CollectionItem = ({ item, addItem }) => {
-  const { name, price, sellerName, imageUrl } = item;
+  const { name, price, artistName, imageUrl } = item;
   return(
     <div className='collection-item'>
       <div
@@ -20,7 +20,7 @@ const CollectionItem = ({ item, addItem }) => {
         <div className='collection-footer'>
           <span className='name'>{ name }</span>
           <span className='price'>{ price }</span>
-          <span className='seller-name'>{ sellerName }</span>
+          <span className='seller-name'>{ artistName }</span>
       </div>
       <CustomButton onClick={() => addItem(item)} inverted>
       Add to cart
